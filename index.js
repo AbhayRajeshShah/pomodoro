@@ -32,6 +32,7 @@ const time = ()=>{
             coins+=(150*streak);
             streak++;
             localStorage.setItem("coin",JSON.stringify(coins))
+            coinText.innerText = preText + ` ${coins}`;
             tTime=300;
             alarm.play();
             done=true;
