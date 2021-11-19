@@ -3,6 +3,8 @@ body{
     margin: 0;
     padding: 0;
     height: 100vh;
+    font-family: Poppins;
+    line-height: 1rem;
     background-color: #181818;
 }
 .outer{
@@ -31,10 +33,8 @@ body{
     justify-items: center;
     justify-content: center;
     align-items:center;
-    font-size:6.25rem;
-    
+    font-size:6.25rem; 
 }
-
 .inner{
     height: 25rem;
     width: 25rem;
